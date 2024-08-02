@@ -1,0 +1,12 @@
+version: '3'
+services:
+  imageresize:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      target: prod
+    ports:
+      - "8080:8080"
+    restart: always
+    volumes:
+      - ../examples/data:/media

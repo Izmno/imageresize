@@ -1,0 +1,2 @@
+balls.jpg: https://commons.wikimedia.org/wiki/File:HDRI_Sample_Scene_Balls_%28JPEG-HDR%29.jpg
+dice.png: https://commons.wikimedia.org/wiki/File:PNG_transparency_demonstration_1.png
