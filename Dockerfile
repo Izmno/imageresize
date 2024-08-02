@@ -23,6 +23,11 @@ CMD "/go/bin/resizer"
 
 FROM alpine:3.19 AS prod
 
-RUN apk add --no-cache imagemagick
+RUN apk add --no-cache \
+    imagemagick \
+    imagemagick-jpeg \
+    imagemagick-webp \
+    ;
+
 COPY --from=build /go/bin/resizer /usr/local/bin/resizer
 CMD "resizer"
