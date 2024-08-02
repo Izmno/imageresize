@@ -29,3 +29,6 @@ vendor/
 .metadata
 *.bak
 *.tmp
+
+# Project specific
+/examples
